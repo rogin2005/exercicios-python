@@ -1,0 +1,5 @@
+# ordem precedência de operadores em python, sendo que o primeiro é o que sempre vai ser mais priorizado e logo após os outros em sequência.
+1 - ()
+2 - **
+3 - *, /, //, %
+4 - +, -

@@ -1,0 +1,5 @@
+nome = input('Qual o seu nome?')
+idade = input('Qual sua idade?')
+peso = input('Qual o seu peso?')
+msg = ('Seja bem vindo {}!!! vc tem {} anos e {} quilos. Correto?'.format(nome, idade, peso))
+print(msg)

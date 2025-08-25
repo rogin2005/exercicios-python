@@ -1,0 +1,8 @@
+n1 = str(input('Digite seu nome completo: ')).strip()
+print('Analisando seu nome...')
+print('Seu nome em maiúsculas:', n1.upper())
+print('Seu nome em minúsculas:', n1.lower())
+n1r = n1.replace(" ", "")
+print(f'seu nome tem {len(n1r)} letras.')
+n1s = n1.split()
+print(f'Seu primeiro nome: {len(n1s[0])} letras')

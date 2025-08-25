@@ -1,0 +1,2 @@
+import emoji
+print(emoji.emojize('Olá, Mundo :skull::hamster::smirking_face::ogre::goblin::broken_heart::index_pointing_up::face_with_peeking_eye::smiling_face::smiling_face_with_sunglasses::face_with_symbols_on_mouth::speech_balloon::backhand_index_pointing_right::backhand_index_pointing_left::eye_in_speech_bubble:'))

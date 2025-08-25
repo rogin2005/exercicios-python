@@ -1,0 +1,45 @@
+Mundo 2 python:
+* Aula 12: Condições aninhadas:
+* Breve explicação: Relembrando o mundo 1 de python do Gustavo Guanabara tínhamos condições simples para nossos programas, que basicamente diziam se uma condição era verdadeira ou falsa, mais conhecido também como o famoso if e else, que era mais ou menos assim: 
+* Ilustração de código python:
+"
+if condicao == True:
+	faca tal_coisa
+else:
+	faca outra_coisa
+"
+é mais ou menos essa a ideia da condição simples, se a condição qualquer que vc atribuiu for verdadeira o seu programa irá fazer uma coisa que vc irá definir e se a condição for falsa o programa irá fazer outra coisa. O if também pode ser representado de outra forma que é "if condicao:" o python também entende que vc está perguntando a ele se a condição é verdadeira mesmo sem comparar ela com o valor "True", e ainda existe o if simplificado que é basicamente vc só verificar se uma condição é verdadeira e executar alguma coisa sem a necessidade do else.
+* Trecho real de código em python:
+"
+num = int(input("Digite um número para verificar se é maior ou menor que zero: "))
+
+if num >= 0:
+   print("O número digitado é igual ou maior que zero...")
+else:
+   print("O número digitado é menor que zero...")
+"
+Porém agora com as condições aninhadas fica mais explicativo o meu programa, vemos q no trecho do código anterior temos um pequeno problema no meu if, que ele verifica se o "num" é igual ou maior que 0, porém na minha saída eu não tenho certeza se realmente num é zero ou é maior que zero, aí que entra as condições aninhadas para resolver esse tipo de problema, a sintaxe é mais ou menos assim temos o if e else nele também, porém entre eles dois temos o "elif", que ele vai criar uma condição a mais para verificar. 
+* Ficaria mais ou menos assim:
+"
+if condicao_x:
+   faca coisa_x
+elif condicao_y:
+   faca coisa_y
+else:
+   faca coisa_z
+"
+Basicamente vão ser três verificações nesse trecho, mas podemos adicionar quantas quiser, se ele não se encaixar nas duas primeiras condições aí ele vai pro else.
+* Código real em python
+"
+
+num = int(input("Digite um número para verificar se é maior ou menor que zero: "))
+
+if num > 0:
+   print("O número digitado é maior que zero...")
+elif num == 0:
+   print("O número digitado é igual a zero...")
+else:
+   print("O número digitado é menor que zero...")
+
+"
+está totalmente funcional, a partir dessa explicação conseguimos criar basicamente qualquer programa que quisermos, claro que existem muito mais coisas para explorar que veremos nas próximas aulas de python...
